@@ -1,0 +1,19 @@
+// Physical keys: Caps Lock -> Control, both Ctrl keys -> Escape,
+// Escape -> Caps Lock. Other US-layout keys remain unchanged.
+xkb_keymap {
+    xkb_keycodes { include "evdev+aliases(qwerty)" };
+    xkb_types { include "complete" };
+    xkb_compatibility { include "complete" };
+    xkb_symbols {
+        include "pc+us+inet(evdev)"
+        replace key <CAPS> { type[Group1] = "ONE_LEVEL", symbols[Group1] = [ Control_L ] };
+        replace key <LCTL> { type[Group1] = "ONE_LEVEL", symbols[Group1] = [ Escape ] };
+        replace key <RCTL> { type[Group1] = "ONE_LEVEL", symbols[Group1] = [ Escape ] };
+        replace key <ESC>  { type[Group1] = "ONE_LEVEL", symbols[Group1] = [ Caps_Lock ] };
+
+        // Clear both symbolic and keycode modifier-map declarations.
+        modifier_map None { Caps_Lock, Control_L, Control_R, <CAPS>, <LCTL>, <RCTL>, <ESC> };
+        modifier_map Control { <CAPS> };
+        modifier_map Lock { <ESC> };
+    };
+};

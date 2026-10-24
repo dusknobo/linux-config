@@ -1,0 +1,5 @@
+[shell]
+polkit_agent = true
+
+[wallpaper]
+directory = "@HOME@/Picture/Wallpapers"

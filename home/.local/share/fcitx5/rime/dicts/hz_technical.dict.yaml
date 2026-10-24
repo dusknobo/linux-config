@@ -1,0 +1,194 @@
+# Personal programming, Linux and mathematics supplement.
+# Curated 2026-10-24; tone marks validated against the pinned Wanxiang chars.
+# Common upstream term/code pairs are omitted; keep upstream weights intact.
+---
+name: hz_technical
+version: "2026-10-24"
+sort: by_weight
+...
+
+# programming
+类型推导	lèi xíng tuī dǎo	100
+模板推导	mú bǎn tuī dǎo	100
+模板实参	mú bǎn shí cān	100
+模板形参	mú bǎn xíng cān	100
+模板特化	mú bǎn tè huà	100
+可变参数模板	kě biàn cān shù mú bǎn	100
+非类型模板参数	fēi lèi xíng mú bǎn cān shù	100
+概念约束	gài niàn yuē shù	100
+约束表达式	yuē shù biǎo dá shì	100
+常量表达式	cháng liàng biǎo dá shì	100
+常量求值	cháng liàng qiú zhí	100
+编译期计算	biān yì qī jì suàn	100
+编译期反射	biān yì qī fǎn shè	100
+静态断言	jìng tài duàn yán	100
+结构化绑定	jié gòu huà bǎng dìng	100
+范围循环	fàn wéi xún huán	100
+范围适配器	fàn wéi shì pèi qì	100
+迭代器失效	dié dài qì shī xiào	100
+迭代器类别	dié dài qì lèi bié	100
+移动语义	yí dòng yǔ yì	100
+移动构造	yí dòng gòu zào	100
+拷贝消除	kǎo bèi xiāo chú	100
+完美转发	wán měi zhuǎn fā	100
+转发引用	zhuǎn fā yǐn yòng	100
+左值引用	zuǒ zhí yǐn yòng	100
+引用折叠	yǐn yòng zhé dié	100
+值类别	zhí lèi bié	100
+对象生命周期	duì xiàng shēng mìng zhōu qī	100
+悬垂引用	xuán chuí yǐn yòng	100
+悬垂指针	xuán chuí zhǐ zhēn	100
+空悬指针	kōng xuán zhǐ zhēn	100
+独占指针	dú zhàn zhǐ zhēn	100
+共享指针	gòng xiǎng zhǐ zhēn	100
+资源获取即初始化	zī yuán huò qǔ jí chū shǐ huà	100
+未定义行为	wèi dìng yì xíng wéi	100
+未指定行为	wèi zhǐ dìng xíng wéi	100
+实现定义行为	shí xiàn dìng yì xíng wéi	100
+异常传播	yì cháng chuán bō	100
+函数重载	hán shù chóng zài	100
+重载决议	chóng zài jué yì	100
+名称查找	míng chēng chá zhǎo	100
+依赖名称	yī lài míng chēng	100
+参数依赖查找	cān shù yī lài chá zhǎo	100
+名字修饰	míng zì xiū shì	100
+符号可见性	fú hào kě jiàn xìng	100
+符号解析	fú hào jiě xī	100
+符号重定位	fú hào chóng dìng wèi	100
+模块接口单元	mó kuài jiē kǒu dān yuán	100
+模块实现单元	mó kuài shí xiàn dān yuán	100
+全局模块片段	quán jú mó kuài piàn duàn	100
+私有模块片段	sī yǒu mó kuài piàn duàn	100
+模块分区	mó kuài fēn qū	100
+模块依赖扫描	mó kuài yī lài sǎo miáo	100
+预编译模块	yù biān yì mó kuài	100
+头文件单元	tóu wén jiàn dān yuán	100
+编译数据库	biān yì shù jù kù	100
+编译命令数据库	biān yì mìng lìng shù jù kù	100
+编译目标	biān yì mù biāo	100
+构建目标	gòu jiàn mù biāo	100
+构建预设	gòu jiàn yù shè	100
+构建类型	gòu jiàn lèi xíng	100
+构建系统	gòu jiàn xì tǒng	100
+增量构建	zēng liàng gòu jiàn	100
+跨平台构建	kuà píng tái gòu jiàn	100
+交叉编译	jiāo chā biān yì	100
+工具链文件	gōng jù liàn wén jiàn	100
+链接时优化	liàn jiē shí yōu huà	100
+配置阶段	pèi zhì jiē duàn	100
+生成阶段	shēng chéng jiē duàn	100
+语言服务器	yǔ yán fú wù qì	100
+语言服务协议	yǔ yán fú wù xié yì	100
+语义高亮	yǔ yì gāo liàng	100
+语义补全	yǔ yì bǔ quán	100
+内联提示	nèi lián tí shì	100
+代码诊断	dài mǎ zhěn duàn	100
+代码重构	dài mǎ chóng gòu	100
+代码格式化	dài mǎ gé shì huà	100
+调试适配器	tiáo shì shì pèi qì	100
+数据断点	shù jù duàn diǎn	100
+单步进入	dān bù jìn rù	100
+单步跳过	dān bù tiào guò	100
+回归测试	huí guī cè shì	100
+性能剖析	xìng néng pōu xī	100
+地址消毒器	dì zhǐ xiāo dú qì	100
+未定义行为检测	wèi dìng yì xíng wéi jiǎn cè	100
+数据竞争	shù jù jìng zhēng	100
+内存序	nèi cún xù	100
+协程调度	xié chéng diào dù	100
+异步运行时	yì bù yùn xíng shí	100
+所有权转移	suǒ yǒu quán zhuǎn yí	100
+借用检查器	jiè yòng jiǎn chá qì	100
+不可变借用	bù kě biàn jiè yòng	100
+生命周期标注	shēng mìng zhōu qī biāo zhù	100
+特征约束	tè zhēng yuē shù	100
+依赖解析	yī lài jiě xī	100
+
+# linux
+内核模块	nèi hé mó kuài	100
+内核参数	nèi hé cān shù	100
+内核日志	nèi hé rì zhì	100
+内核空间	nèi hé kōng jiān	100
+用户态驱动	yòng hù tài qū dòng	100
+用户级服务	yòng hù jí fú wù	100
+服务单元	fú wù dān yuán	100
+套接字激活	tào jiē zì jī huó	100
+定时器单元	dìng shí qì dān yuán	100
+进程管理	jìn chéng guǎn lǐ	100
+进程信号	jìn chéng xìn hào	100
+后台任务	hòu tái rèn wù	100
+作业控制	zuò yè kòng zhì	100
+文件描述符	wén jiàn miáo shù fú	100
+标准错误	biāo zhǔn cuò wù	100
+命令替换	mìng lìng tì huàn	100
+登录终端	dēng lù zhōng duān	100
+交互式终端	jiāo hù shì zhōng duān	100
+伪终端	wěi zhōng duān	100
+终端复用器	zhōng duān fù yòng qì	100
+动态库搜索路径	dòng tài kù sōu suǒ lù jìng	100
+软件仓库	ruǎn jiàn cāng kù	100
+依赖冲突	yī lài chōng tū	100
+软件包签名	ruǎn jiàn bāo qiān míng	100
+滚动更新	gǔn dòng gēng xīn	100
+内核固件	nèi hé gù jiàn	100
+显卡固件	xiǎn kǎ gù jiàn	100
+运行时电源管理	yùn xíng shí diàn yuán guǎn lǐ	100
+显示服务器	xiǎn shì fú wù qì	100
+平铺窗口管理器	píng pū chuāng kǒu guǎn lǐ qì	100
+滚动平铺	gǔn dòng píng pū	100
+动态工作区	dòng tài gōng zuò qū	100
+显示器缩放	xiǎn shì qì suō fàng	100
+分数缩放	fēn shù suō fàng	100
+输入法框架	shū rù fǎ kuàng jià	100
+子卷快照	zǐ juàn kuài zhào	100
+磁盘配额	cí pán pèi é	100
+交换分区	jiāo huàn fēn qū	100
+压缩内存	yā suō nèi cún	100
+访问控制列表	fǎng wèn kòng zhì liè biǎo	100
+安全上下文	ān quán shàng xià wén	100
+强制访问控制	qiáng zhì fǎng wèn kòng zhì	100
+网络命名空间	wǎng luò mìng míng kōng jiān	100
+容器运行时	róng qì yùn xíng shí	100
+引导加载程序	yǐn dǎo jiā zài chéng xù	100
+启动参数	qǐ dòng cān shù	100
+透明代理	tòu míng dài lǐ	100
+代理环境变量	dài lǐ huán jìng biàn liàng	100
+安全外壳协议	ān quán wài ké xié yì	100
+公钥认证	gōng yào rèn zhèng	100
+端口转发	duān kǒu zhuǎn fā	100
+
+# math
+奇异值分解	qí yì zhí fēn jiě	100
+特征值分解	tè zhēng zhí fēn jiě	100
+稠密矩阵	chóu mì jǔ zhèn	100
+雅可比矩阵	yǎ kě bǐ jǔ zhèn	100
+海森矩阵	hǎi sēn jǔ zhèn	100
+数值稳定性	shù zhí wěn dìng xìng	100
+浮点误差	fú diǎn wù chā	100
+病态问题	bìng tài wèn tí	100
+迭代求解器	dié dài qiú jiě qì	100
+预条件器	yù tiáo jiàn qì	100
+最小二乘法	zuì xiǎo èr chéng fǎ	100
+随机梯度下降	suí jī tī dù xià jiàng	100
+牛顿迭代法	niú dùn dié dài fǎ	100
+偏微分方程	piān wēi fēn fāng chéng	100
+常微分方程	cháng wēi fēn fāng chéng	100
+狄利克雷边界	dí lì kè léi biān jiè	100
+诺伊曼边界	nuò yī màn biān jiè	100
+网格收敛性	wǎng gé shōu liǎn xìng	100
+时间步长	shí jiān bù cháng	100
+空间离散	kōng jiān lí sàn	100
+插值多项式	chā zhí duō xiàng shì	100
+傅里叶变换	fù lǐ yè biàn huàn	100
+卷积定理	juǎn jī dìng lǐ	100
+勒贝格积分	lè bèi gé jī fēn	100
+测度空间	cè dù kōng jiān	100
+一致收敛	yī zhì shōu liǎn	100
+逐点收敛	zhú diǎn shōu liǎn	100
+概率密度函数	gài lǜ mì dù hán shù	100
+极大似然估计	jí dà sì rán gū jì	100
+协方差矩阵	xié fāng chā jǔ zhèn	100
+图论算法	tú lùn suàn fǎ	100
+拓扑排序	tuò pū pái xù	100
+渐近复杂度	jiàn jìn fù zá dù	100
+摊还分析	tān huán fēn xī	100

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.fish text eol=lf
+*.kdl text eol=lf
+*.xkb text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.in text eol=lf

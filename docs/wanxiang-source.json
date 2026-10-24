@@ -1,0 +1,62 @@
+{
+  "upstream_repository": "amzxyz/rime-wanxiang-data",
+  "commit": "a4c5c5bc2ce7aacbcc849378c413724d78c273d6",
+  "files": [
+    {
+      "source": "dicts/zi.dict.yaml",
+      "destination": "dicts/rime_mint.chars.dict.yaml",
+      "blob_sha": "038a106edb471982b49c83f209834db0e1984bbb",
+      "entries": 51050,
+      "old_entries": 51050
+    },
+    {
+      "source": "dicts/jichu.dict.yaml",
+      "destination": "dicts/rime_mint.base.dict.yaml",
+      "blob_sha": "31d786cc58d9105e043b87a4f19f415163badcf1",
+      "entries": 1493385,
+      "old_entries": 1493813
+    },
+    {
+      "source": "dicts/cuoyin.dict.yaml",
+      "destination": "dicts/rime_mint.correlation.dict.yaml",
+      "blob_sha": "e621f7dac4ff88e12bb8a641362b34dbd6637b1b",
+      "entries": 196,
+      "old_entries": 196
+    },
+    {
+      "source": "dicts/duoyin.dict.yaml",
+      "destination": "dicts/rime_mint.compatible.dict.yaml",
+      "blob_sha": "565a26bff0dab516eb7d3a63656979bce7972fb5",
+      "entries": 4737,
+      "old_entries": 4733
+    },
+    {
+      "source": "dicts/diming.dict.yaml",
+      "destination": "dicts/rime_mint.places.dict.yaml",
+      "blob_sha": "d3c85b12066d818dca217266220803656102d158",
+      "entries": 89418,
+      "old_entries": 89418
+    },
+    {
+      "source": "dicts/yiren.dict.yaml",
+      "destination": "dicts/rime_mint.artists.dict.yaml",
+      "blob_sha": "cbbbe2d72fa0240edf0c3ebd7daa12ccf5864642",
+      "entries": 14444,
+      "old_entries": 14444
+    },
+    {
+      "source": "dicts/mingren.dict.yaml",
+      "destination": "dicts/rime_mint.famous.dict.yaml",
+      "blob_sha": "ca5034968b2f920fc22cf82940bbae18d4e52a40",
+      "entries": 22116,
+      "old_entries": 22115
+    }
+  ],
+  "curated_terms": 279,
+  "already_in_upstream": 99,
+  "new_terms": {
+    "programming": 95,
+    "linux": 51,
+    "math": 34
+  }
+}

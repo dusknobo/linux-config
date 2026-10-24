@@ -1,0 +1,90 @@
+# Information-rich bar for the T480's 1536-logical-pixel display.
+# Only presentation and widget actions change; desktop/idle policies stay intact.
+[bar.default]
+start = ["launcher", "workspaces", "cpu", "ram", "temp", "media"]
+center = ["clock"]
+end = ["network_rx", "network_tx", "network", "bluetooth", "tray", "privacy", "notifications", "volume", "caffeine", "power_profile", "battery", "control-center", "session"]
+thickness = 36
+margin_ends = 12
+margin_edge = 6
+margin_opposite_edge = 4
+padding = 10
+widget_spacing = 6
+border_width = 1
+
+[widget.clock]
+type = "clock"
+format = "{:%a %m-%d %H:%M}"
+tooltip_format = "{:%A, %B %d, %Y}"
+
+[widget.cpu]
+type = "sysmon"
+stat = "cpu_usage"
+visualization = "gauge"
+show_value = true
+label_show_units = true
+label_min_width = 34
+
+[widget.cpu.actions]
+left = "exec kitty -e btop"
+right = "panel-toggle control-center system"
+
+[widget.ram]
+type = "sysmon"
+stat = "ram_pct"
+visualization = "gauge"
+show_value = true
+label_show_units = true
+label_min_width = 34
+
+[widget.ram.actions]
+left = "exec kitty -e btop"
+right = "panel-toggle control-center system"
+
+[widget.temp]
+type = "sysmon"
+stat = "cpu_temp"
+visualization = "none"
+show_value = true
+label_show_units = true
+label_min_width = 38
+
+[widget.network_rx]
+type = "sysmon"
+stat = "net_rx"
+visualization = "none"
+show_value = true
+label_show_units = true
+network_speed_unit = "auto"
+network_speed_compact = true
+label_min_width = 42
+
+[widget.network_tx]
+type = "sysmon"
+stat = "net_tx"
+visualization = "none"
+show_value = true
+label_show_units = true
+network_speed_unit = "auto"
+network_speed_compact = true
+label_min_width = 42
+
+[widget.media]
+type = "media"
+max_length = 120
+min_length = 60
+title_scroll = "none"
+
+[widget.network]
+type = "network"
+show_label = false
+show_vpn_label = false
+vpn_status = "both"
+
+[widget.battery]
+type = "battery"
+show_label = true
+label_content = "percent"
+display_mode = "glyph"
+hide_when_plugged = false
+hide_when_full = false

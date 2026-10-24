@@ -1,0 +1,13 @@
+# Optional local HTTP proxy. This example is NOT installed or enabled.
+# Copy to ~/.config/fish/conf.d/70-proxy.local.fish and edit locally.
+# Never commit a real LAN endpoint, proxy credentials or access tokens.
+if false
+    set -gx http_proxy http://127.0.0.1:7890
+    set -gx https_proxy $http_proxy
+    set -gx all_proxy $http_proxy
+    set -gx no_proxy 'localhost,127.0.0.1,::1,.local'
+    set -gx HTTP_PROXY $http_proxy
+    set -gx HTTPS_PROXY $https_proxy
+    set -gx ALL_PROXY $all_proxy
+    set -gx NO_PROXY $no_proxy
+end

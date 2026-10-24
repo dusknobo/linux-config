@@ -1,0 +1,72 @@
+input {
+    mod-key "Alt"
+    keyboard { xkb { file "@HOME@/.config/niri/keymap.xkb"; }; }
+    touchpad { tap; natural-scroll; }
+}
+layout {
+    gaps 8
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+    default-column-width { proportion 0.5; }
+}
+spawn-at-startup "noctalia"
+binds {
+    Mod+Return { spawn "kitty"; }
+    Mod+T { spawn "kitty"; }
+    Mod+E { spawn "pcmanfm-qt"; }
+    Mod+D { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    Mod+Space { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    Mod+S { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
+    Mod+Comma { spawn "noctalia" "msg" "settings-toggle"; }
+    Mod+Tab { spawn "noctalia" "msg" "window-switcher" "hold"; }
+    Mod+Ctrl+L { spawn "noctalia" "msg" "session" "lock"; }
+    Mod+V { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    Mod+N { spawn "noctalia" "msg" "panel-toggle" "control-center" "notifications"; }
+    Mod+Shift+P { spawn "noctalia" "msg" "caffeine-toggle"; }
+    Print { spawn "noctalia" "msg" "screenshot-region"; }
+    Shift+Print { spawn "noctalia" "msg" "screenshot-fullscreen"; }
+    Mod+Q { close-window; }
+    Mod+Left { focus-column-left; }
+    Mod+Right { focus-column-right; }
+    Mod+Up { focus-window-up; }
+    Mod+Down { focus-window-down; }
+    Mod+H { focus-column-left; }
+    Mod+J { focus-window-or-workspace-down; }
+    Mod+K { focus-window-or-workspace-up; }
+    Mod+L { focus-column-right; }
+    Mod+Shift+Left { move-column-left; }
+    Mod+Shift+Right { move-column-right; }
+    Mod+Shift+Up { move-window-up; }
+    Mod+Shift+Down { move-window-down; }
+    Mod+Shift+H { move-column-left; }
+    Mod+Shift+J { move-window-down-or-to-workspace-down; }
+    Mod+Shift+K { move-window-up-or-to-workspace-up; }
+    Mod+Shift+L { move-column-right; }
+    Mod+Page_Down { focus-workspace-down; }
+    Mod+Page_Up { focus-workspace-up; }
+    Mod+F { maximize-column; }
+    Mod+Shift+F { fullscreen-window; }
+    Mod+O { toggle-overview; }
+    Mod+Shift+E { quit; }
+    XF86AudioRaiseVolume { spawn "noctalia" "msg" "volume-up"; }
+    XF86AudioLowerVolume { spawn "noctalia" "msg" "volume-down"; }
+    XF86AudioMute { spawn "noctalia" "msg" "volume-mute"; }
+    XF86AudioMicMute { spawn "noctalia" "msg" "mic-mute"; }
+    XF86AudioPlay { spawn "noctalia" "msg" "media" "toggle"; }
+    XF86AudioPause { spawn "noctalia" "msg" "media" "pause"; }
+    XF86AudioNext { spawn "noctalia" "msg" "media" "next"; }
+    XF86AudioPrev { spawn "noctalia" "msg" "media" "previous"; }
+    XF86MonBrightnessUp { spawn "noctalia" "msg" "brightness-up"; }
+    XF86MonBrightnessDown { spawn "noctalia" "msg" "brightness-down"; }
+}
+
+// Input method for applications launched by niri.
+environment {
+    XMODIFIERS "@im=fcitx"
+    QT_IM_MODULE "fcitx"
+    TERMINAL "kitty"
+    GLFW_IM_MODULE "ibus"
+}

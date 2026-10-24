@@ -1,0 +1,14 @@
+# User-confirmed policy: 10 minutes lock, 11 minutes screen off, no auto suspend.
+[idle.behavior.lock]
+enabled = true
+timeout = 600
+action = "lock"
+
+[idle.behavior.screen-off]
+enabled = true
+timeout = 660
+action = "screen_off"
+
+[idle.behavior.lock-and-suspend]
+enabled = false
+action = "lock_and_suspend"

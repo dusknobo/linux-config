@@ -1,0 +1,33 @@
+# Audited additions for Noctalia 5.2.1. Existing settings and UI state are kept.
+
+[shell.screenshot]
+directory = "@HOME@/Picture/Screenshots"
+save_to_file = true
+copy_to_clipboard = true
+
+[bar.default]
+end = ["media", "tray", "notifications", "clipboard", "screenshot", "privacy", "network", "bluetooth", "volume", "brightness", "caffeine", "power_profile", "battery", "control-center", "session"]
+
+# Fixed times avoid location lookups. No weather city or coordinates are added.
+[location]
+auto_locate = false
+custom_schedule = true
+sunrise = "07:00"
+sunset = "20:00"
+
+[nightlight]
+enabled = true
+force = false
+temperature_day = 6500
+temperature_night = 4000
+
+# Explicit conservative policy until the user chooses automatic idle behavior.
+# Adding manual key bindings must never start an automatic lock or suspend.
+[idle.behavior.lock]
+enabled = false
+
+[idle.behavior.screen-off]
+enabled = false
+
+[idle.behavior.lock-and-suspend]
+enabled = false

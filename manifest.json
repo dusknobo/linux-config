@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "source": "home/.config/niri/config.kdl.in",
+      "target": ".config/niri/config.kdl",
+      "component": "niri",
+      "template": true,
+      "sha256": "84c888062454ececd6c5b7a34616186d242b07290101ac776dc6022535bdb8bf"
+    },
+    {
+      "source": "home/.config/niri/keymap.xkb",
+      "target": ".config/niri/keymap.xkb",
+      "component": "niri",
+      "template": false,
+      "sha256": "0dab34f745cb87b713eb70f297b745a04fae321891a5319be0460b443d790ba5"
+    },
+    {
+      "source": "home/.config/noctalia/settings.toml.in",
+      "target": ".config/noctalia/settings.toml",
+      "component": "noctalia",
+      "template": true,
+      "sha256": "e178508db620d68e7b0fa2b48fb33af49a0de7d1dec2a1e894461a7dc4d3ba7e"
+    },
+    {
+      "source": "home/.config/noctalia/90-common-features.toml.in",
+      "target": ".config/noctalia/90-common-features.toml",
+      "component": "noctalia",
+      "template": true,
+      "sha256": "d8ee5ec876eb9bc36fd6fea682bac66009049be660721f73cd83729a1a76cc3e"
+    },
+    {
+      "source": "home/.config/noctalia/95-idle-policy.toml",
+      "target": ".config/noctalia/95-idle-policy.toml",
+      "component": "noctalia",
+      "template": false,
+      "sha256": "84957a8162bdb786be5190b4b5b55d2c968ece2cc4d4e0076ecb70adfa4cb384"
+    },
+    {
+      "source": "home/.config/noctalia/98-bar-info.toml",
+      "target": ".config/noctalia/98-bar-info.toml",
+      "component": "noctalia",
+      "template": false,
+      "sha256": "bfd553e67990c003352d9cbdd85a1a622df32de954e03ac715d66c5948eb2f96"
+    },
+    {
+      "source": "home/.config/fish/config.fish",
+      "target": ".config/fish/config.fish",
+      "component": "fish",
+      "template": false,
+      "sha256": "d980cfb93b0e8956f540504502a078768f15281473586a8e6d5816bf551f8296"
+    },
+    {
+      "source": "home/.config/fish/conf.d/60-development-path.fish",
+      "target": ".config/fish/conf.d/60-development-path.fish",
+      "component": "fish",
+      "template": false,
+      "sha256": "d56c989189198535c84887c83f3db1bdbd898129e7145f70bb4662186a511044"
+    },
+    {
+      "source": "home/.config/fish/conf.d/90-terminal.fish",
+      "target": ".config/fish/conf.d/90-terminal.fish",
+      "component": "fish",
+      "template": false,
+      "sha256": "9dcce5ab7c312db535ff2ac173687ba788d15727015f117470b2f5fa5d4984bc"
+    },
+    {
+      "source": "home/.config/kitty/kitty.conf",
+      "target": ".config/kitty/kitty.conf",
+      "component": "kitty",
+      "template": false,
+      "sha256": "060d6e341825863102fe4c549a43e1d9f19893e061fddd09740b88b2223a5910"
+    },
+    {
+      "source": "home/.config/kitty/current-theme.conf",
+      "target": ".config/kitty/current-theme.conf",
+      "component": "kitty",
+      "template": false,
+      "sha256": "e92085fb339ca9be916e3bc47fa6813843c6007b155d4f9bcb9fb5af545adc5c"
+    },
+    {
+      "source": "home/.config/zellij/config.kdl",
+      "target": ".config/zellij/config.kdl",
+      "component": "zellij",
+      "template": false,
+      "sha256": "d179ea61e8a441d50d84cac091df725b5fd49ab75440733a748ea8cb0fc485f4"
+    },
+    {
+      "source": "home/.config/btop/btop.conf",
+      "target": ".config/btop/btop.conf",
+      "component": "btop",
+      "template": false,
+      "sha256": "435800abb23a27f5ddb2a8210ea6fec6aa4d37d3a3146797e481ac68ea629567"
+    },
+    {
+      "source": "home/.config/fcitx5/config",
+      "target": ".config/fcitx5/config",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "98db11496c40fe5aac0daee1679276e20e8d24d6fa71fd6dd80da03d70c7d5b4"
+    },
+    {
+      "source": "home/.config/fcitx5/profile",
+      "target": ".config/fcitx5/profile",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "64df4faab7a4ab881f274043cb5b0c22672683197955609d619a57eab0c149b3"
+    },
+    {
+      "source": "home/.config/fcitx5/conf/pinyin.conf",
+      "target": ".config/fcitx5/conf/pinyin.conf",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "9c97536501ffe39e57fd47895d2b24886b1d64780ac3d961f6232c504b478f20"
+    },
+    {
+      "source": "home/.config/fcitx5/conf/chttrans.conf",
+      "target": ".config/fcitx5/conf/chttrans.conf",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "5a4788d395e3b58b120da07da0ef7a89f7d6b18398139c7868b6da74c2dd751e"
+    },
+    {
+      "source": "home/.config/fcitx5/conf/punctuation.conf",
+      "target": ".config/fcitx5/conf/punctuation.conf",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "ed0d999474bd7ebccf0155b0b9051fb4b8767cd9360046ce1af3f2cc331a10b0"
+    },
+    {
+      "source": "home/.config/fcitx5/conf/notifications.conf",
+      "target": ".config/fcitx5/conf/notifications.conf",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "9ad16184fc23e3f4fa24487005573255e126b7d6d50a0dc98e073788053292f9"
+    },
+    {
+      "source": "home/.config/autostart/org.fcitx.Fcitx5.desktop",
+      "target": ".config/autostart/org.fcitx.Fcitx5.desktop",
+      "component": "fcitx5",
+      "template": false,
+      "sha256": "3b2f192eb788fd306e48469068739929275bf29322ad653bcadccf85fa78e190"
+    },
+    {
+      "source": "home/.local/share/fcitx5/rime/default.custom.yaml",
+      "target": ".local/share/fcitx5/rime/default.custom.yaml",
+      "component": "rime",
+      "template": false,
+      "sha256": "ff75e6323308f97c2562f75a3448ee831ffff5e3bd8a5987b42089d14d06d9a8"
+    },
+    {
+      "source": "home/.local/share/fcitx5/rime/double_pinyin_flypy.schema.yaml",
+      "target": ".local/share/fcitx5/rime/double_pinyin_flypy.schema.yaml",
+      "component": "rime",
+      "template": false,
+      "sha256": "39fdcb2c8d93e6ce65cb832f6a23871ce91de027e91e4c0cceeca5594981dc4c"
+    },
+    {
+      "source": "home/.local/share/fcitx5/rime/rime_mint.schema.yaml",
+      "target": ".local/share/fcitx5/rime/rime_mint.schema.yaml",
+      "component": "rime",
+      "template": false,
+      "sha256": "d3d3d942e109315cdf313677f48e4ec07a0777ae2f693632297136ee2c134bf9"
+    },
+    {
+      "source": "home/.local/share/fcitx5/rime/rime_mint.dict.yaml",
+      "target": ".local/share/fcitx5/rime/rime_mint.dict.yaml",
+      "component": "rime",
+      "template": false,
+      "sha256": "113dead1a4f17ac353255932c4f2f1d2e9f312b58bd24813245f4d92c7aa49eb"
+    },
+    {
+      "source": "home/.local/share/fcitx5/rime/dicts/hz_technical.dict.yaml",
+      "target": ".local/share/fcitx5/rime/dicts/hz_technical.dict.yaml",
+      "component": "rime",
+      "template": false,
+      "sha256": "9c3ca928e8d1a4417049da108e518e078b394bc029a7e159d387fd0ea9ab6a6d"
+    }
+  ]
+}
